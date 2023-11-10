@@ -26,7 +26,12 @@
         <Label Grid.Row="2" Grid.Column="0" Content="Aantal"/>
         <TextBox Grid.Row="2" Grid.Column="1" Name="AantalTextBox" Margin="5" Grid.ColumnSpan="3"/>
         <Label Grid.Row="3" Grid.Column="0" Content="Strips"/>
-        <DataGrid Name="StripsDataGrid" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="3" Margin="5"/>
+        <DataGrid Name="StripsDataGrid" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="3" Margin="5">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nr" Binding="{Binding Nr}"/>
+                <DataGridTextColumn Header="Titel" Binding="{Binding Titel}" />
+            </DataGrid.Columns>
+        </DataGrid>
         <Button Grid.Column="2" Grid.Row="0" Name="GetStripButton" Content="Get Reeks" Click="GetReeksButton_Click" Margin="5" Grid.ColumnSpan="2"/>
     </Grid>
 </Window>

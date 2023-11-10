@@ -1,4 +1,4 @@
-﻿using StripsBL.DTOs;
+﻿//using StripsBL.DTOs;
 using StripsBL.Exceptions;
 using StripsBL.Interfaces;
 using StripsBL.Model;
@@ -19,6 +19,11 @@ namespace StripsBL.Managers
             this.stripsRepository = stripsRepository;
         }
 
-       
+        public Reeks GetReeksDetails(int reeksId)
+        {
+            // Additional business logic can be added here if needed
+            return stripsRepository.GetReeksDetails(reeksId);
+        }
+
     }
 }

@@ -1,4 +1,4 @@
-﻿using StripsBL.DTOs;
+﻿
 using StripsBL.Model;
 using System;
 using System.Collections.Generic;
@@ -10,6 +10,6 @@ namespace StripsBL.Interfaces
 {
     public interface IStripsRepository
     {
-        
+        Reeks GetReeksDetails(int reeksId);
     }
 }
