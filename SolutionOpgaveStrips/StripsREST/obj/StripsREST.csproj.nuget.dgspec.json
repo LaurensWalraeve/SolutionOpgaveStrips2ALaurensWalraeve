@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsREST\\StripsREST.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsBL\\StripsBL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsBL\\StripsBL.csproj",
+        "projectName": "StripsBL",
+        "projectPath": "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsBL\\StripsBL.csproj",
+        "packagesPath": "C:\\Users\\LaurensW\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsBL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LaurensW\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsDL\\StripsDL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsDL\\StripsDL.csproj",
+        "projectName": "StripsDL",
+        "projectPath": "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsDL\\StripsDL.csproj",
+        "packagesPath": "C:\\Users\\LaurensW\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsDL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LaurensW\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsBL\\StripsBL.csproj": {
+                "projectPath": "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsBL\\StripsBL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsREST\\StripsREST.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsREST\\StripsREST.csproj",
+        "projectName": "StripsREST",
+        "projectPath": "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsREST\\StripsREST.csproj",
+        "packagesPath": "C:\\Users\\LaurensW\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsREST\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LaurensW\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsBL\\StripsBL.csproj": {
+                "projectPath": "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsBL\\StripsBL.csproj"
+              },
+              "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsDL\\StripsDL.csproj": {
+                "projectPath": "C:\\Users\\LaurensW\\Desktop\\TestVrijdag\\SolutionOpgaveStrips2ALaurensWalraeve\\SolutionOpgaveStrips\\StripsDL\\StripsDL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
